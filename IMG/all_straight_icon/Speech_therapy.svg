@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="193.637" height="156.923" viewBox="0 0 193.637 156.923">
+  <g id="Speech_therapy" data-name="Speech therapy" transform="translate(-1067.181 -2071)">
+    <text id="А" transform="translate(1107 2170)" fill="#fff" font-size="30" font-family="Corbel-Bold, Corbel" font-weight="700"><tspan x="0" y="0">А</tspan></text>
+    <text id="А-2" data-name="А" transform="matrix(-0.017, 1, -1, -0.017, 1194.138, 2157.246)" fill="#fff" font-size="30" font-family="Corbel-Bold, Corbel" font-weight="700"><tspan x="0" y="29">А</tspan></text>
+    <text id="Р" transform="translate(1235.535 2118.997) rotate(66)" fill="#fff" font-size="30" font-family="Corbel-Bold, Corbel" font-weight="700"><tspan x="0" y="29">Р</tspan></text>
+    <text id="_5" data-name="5" transform="translate(1153.535 2188.997) rotate(66)" fill="#fff" font-size="30" font-family="Corbel-Bold, Corbel" font-weight="700"><tspan x="0" y="29">5</tspan></text>
+    <text id="У" transform="translate(1221.818 2167.978) rotate(11)" fill="#fff" font-size="30" font-family="Corbel-Bold, Corbel" font-weight="700"><tspan x="0" y="29">У</tspan></text>
+    <text id="У-2" data-name="У" transform="translate(1087.818 2187.978) rotate(11)" fill="#fff" font-size="30" font-family="Corbel-Bold, Corbel" font-weight="700"><tspan x="0" y="29">У</tspan></text>
+    <g id="knowledge" transform="translate(1283.88 2295.58) rotate(173)">
+      <path id="Контур_6394" data-name="Контур 6394" d="M185.7,428.843V406.5H107.311A14.7,14.7,0,0,0,95.4,412.595,14.7,14.7,0,0,0,83.479,406.5H5.091v22.343H.25V445.6H190.54V428.843Zm-78.388-16.757h72.8v16.757H98.188v-7.634A9.134,9.134,0,0,1,107.311,412.086Zm-96.635,0h72.8a9.134,9.134,0,0,1,9.123,9.124v7.634H10.677Zm174.277,27.929H5.836v-5.586H184.954Z" transform="translate(0 -219.304)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

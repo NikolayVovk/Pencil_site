@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Олівець</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/Main.css">
+</head>
+
+<body>
+    <header id=bottommenu>
+        <div class="header_main">
+            <div class="header_block">
+                <a href="index.html" class="header_logo"><img src="Img/Logo.png" class="header_logo" alt=""></a>
+                <div class="header_text">
+                    <div class="header_text_contacts">
+                        <div class="header_text_contacts_phone">
+                            <div class="header_text_contacts_img">
+                                <img src="Img/social/Phone.svg" alt="">
+                            </div>
+                            <div class="">
+                                <p>Наш телефон:</p>
+                                <h3>063 637 71 81</h3>
+                            </div>
+                        </div>
+                        <div class="header_text_contacts_location">
+                            <div class="header_text_contacts_img">
+                                <img src="Img/social/Location.svg" alt="">
+                            </div>
+                            <div class="">
+                                <p>Наш адрес:</p>
+                                <h3>вул.Каховська, 62, 2 поверх, офіс 10.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_text_language">
+                        <div class="header_text_language_button">
+                            <img src="Img/social/Russia.svg" alt="">
+                        </div>
+                        <div class="header_text_language_button">
+                            <img src="Img/social/Ukraine.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_menu_burger" onclick="open_menu()">
+            <img src="Img/social/Burger_icon.svg" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="menu_section" id="menu_section">
+            <div class="menu_section_text_box">
+                <div class="header_menu_close" onclick="close_menu()">
+                    <img src="Img/social/Close_icon.svg" alt="">
+                </div>
+                <a href="About_us.html">О нас</a>
+                <a href="Disciplines_and_values.html">Дисципліни та ціни</a>
+                <a href="Our_teachers.html">Наші викладачі</a>
+                <a href="School_rules.html">Правила відвідування школи</a>
+                <a href="Photo_students.html">Роботи наших учнів</a>
+                <a href="Video_students.html">Відео хроніки</a>
+            </div>
+        </section>
+        <section class="distribution_section" id="main_section">
+            <div class="distribution_block">
+                <style>
+                    table {
+                        width: 100%;
+                        table-layout: fixed;
+                    }
+                    
+                    table td {
+                        width: 100%;
+                        text-align: center;
+                        word-wrap: break-word;
+                    }
+                    
+                    @media screen and (max-width: 485px) {
+                        .distribution_section {
+                            padding-left: 5px;
+                            padding-right: 5px;
+                        }
+                        .distribution_box__maintext {
+                            height: 200px;
+                        }
+                        .distribution_block {
+                            width: 100%;
+                        }
+                        table p {
+                            font-size: 14px;
+                        }
+                        .distribution_box__maintext h2 {
+                            font-size: 80px;
+                        }
+                    }
+                </style>
+                <div class="distribution_box__maintext">
+                    <h2>Розклад</h2>
+                </div>
+                <table border="6px" bordercolor="#6C91AB" bgcolor="#fff">
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            <h3>Пн</h3>
+                            <p>15.03</p>
+                        </td>
+                        <td>
+                            <h3>Вт</h3>
+                            <p>16.03</p>
+                        </td>
+                        <td>
+                            <h3>Ср</h3>
+                            <p>17.03</p>
+                        </td>
+                        <td>
+                            <h3>Чт</h3>
+                            <p>18.03</p>
+                        </td>
+                        <td>
+                            <h3>Пт</h3>
+                            <p>19.03</p>
+                        </td>
+                        <td>
+                            <h3>Сб</h3>
+                            <p>20.03</p>
+                        </td>
+                        <td>
+                            <h3>Вс</h3>
+                            <p>21.03</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="8">7:00-12:00</th>
+                    </tr>
+                    <tr>
+                        <td>09:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>09:45</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:10</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:45</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:10</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:45</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th colspan="8">12:00-18:00</th>
+                    </tr>
+                    <tr>
+                        <td>12:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:10</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:15</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>13:10</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>17:45</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th colspan="8">18:00-22:00</th>
+                    </tr>
+                    <tr>
+                        <td>18:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:15</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:25</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:10</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:25</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>20:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>20:15</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="#main_section" id="header_button_up" class="header_button_up">
+            <img src="Img/social/Up_icon.svg" alt="">
+        </a>
+    </footer>
+</body>
+<script>
+    window.addEventListener("scroll", bringmenu);
+
+    function bringmenu() {
+        if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+            document.getElementById("bottommenu").style.top = "-15%";
+            document.getElementById("header_button_up").style.opacity = "1";
+        } else {
+            document.getElementById("bottommenu").style.top = "0";
+            document.getElementById("header_button_up").style.opacity = "0";
+        }
+    }
+
+    function open_menu() {
+        document.getElementById("menu_section").style.left = "0%";
+    }
+
+    function close_menu() {
+        document.getElementById("menu_section").style.left = "-100%";
+    }
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--asassa-->

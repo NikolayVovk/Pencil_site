@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Олівець</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/Main.css">
+  </head>
+  <body>
+    <header id=bottommenu>
+      <div class="header_main">
+        <div class="header_block">
+          <a href="index.html" class="header_logo" ><img src="Img/Logo.png" class="header_logo" alt=""></a>
+          <div class="header_text">
+            <div class="header_text_contacts">
+              <div class="header_text_contacts_phone">
+                <div class="header_text_contacts_img">
+                  <img src="Img/social/Phone.svg" alt="">
+                </div>
+                <div class="">
+                  <p>Наш телефон:</p>
+                  <h3>063 637 71 81</h3>
+                </div>
+              </div>
+              <div class="header_text_contacts_location">
+                <div class="header_text_contacts_img">
+                  <img src="Img/social/Location.svg" alt="">
+                </div>
+                <div class="">
+                  <p>Наш адрес:</p>
+                  <h3>вул.Каховська, 62, 2 поверх, офіс 10.</h3>
+                </div>
+              </div>
+            </div>
+            <div class="header_text_language">
+              <div class="header_text_language_button">
+                <img src="Img/social/Russia.svg" alt="">
+              </div>
+              <div class="header_text_language_button">
+                <img src="Img/social/Ukraine.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_menu_burger" onclick="open_menu()">
+        <img src="Img/social/Burger_icon.svg" alt="">
+      </div>
+    </header>
+    <main>
+    <section class="menu_section" id="menu_section">
+      <div class="menu_section_text_box">
+        <div class="header_menu_close" onclick="close_menu()">
+          <img src="Img/social/Close_icon.svg" alt="">
+        </div>
+        <a href="About_us.html">О нас</a>
+        <a href="Disciplines_and_values.html">Дисципліни та ціни</a>
+        <a href="Our_teachers.html">Наші викладачі</a>
+        <a href="School_rules.html">Правила відвідування школи</a>
+        <a href="Photo_students.html">Роботи наших учнів</a>
+        <a href="Video_students.html">Відео хроніки</a>
+      </div>
+    </section>
+    <section class="photo_students_section" id="main_section">
+      <div class="photo_students_block">
+        <h2>Відео хроніки</h2>
+        <div class="photo_students_blockboxs">
+          <a href="https://www.youtube.com/" class="photo_students_blockboxs_img">
+            <img src="img/Gallery_photo/Gallery_photo.jpg" alt="">
+            <div class="photo_students_date">
+              <p>23.03.2021</p>
+            </div>
+          </a>
+         <a href="https://www.youtube.com/" class="photo_students_blockboxs_img">
+           <img src="img/Gallery_photo/Gallery_photo.jpg" alt="">
+           <div class="photo_students_date">
+             <p>23.03.2021</p>
+           </div>
+         </a>
+         <a href="https://www.youtube.com/" class="photo_students_blockboxs_img">
+           <img src="img/Gallery_photo/Gallery_photo.jpg" alt="">
+           <div class="photo_students_date">
+             <p>23.03.2021</p>
+           </div>
+         </a>
+         <a href="https://www.youtube.com/" class="photo_students_blockboxs_img">
+           <img src="img/Gallery_photo/Gallery_photo.jpg" alt="">
+           <div class="photo_students_date">
+             <p>23.03.2021</p>
+           </div>
+         </a>
+         <a href="https://www.youtube.com/" class="photo_students_blockboxs_img">
+           <img src="img/Gallery_photo/Gallery_photo.jpg" alt="">
+           <div class="photo_students_date">
+             <p>23.03.2021</p>
+           </div>
+         </a>
+         <a href="https://www.youtube.com/" class="photo_students_blockboxs_img">
+           <img src="img/Gallery_photo/Gallery_photo.jpg" alt="">
+           <div class="photo_students_date">
+             <p>23.03.2021</p>
+           </div>
+         </a>
+         <a href="https://www.youtube.com/" class="photo_students_blockboxs_img">
+           <img src="img/Gallery_photo/Gallery_photo.jpg" alt="">
+           <div class="photo_students_date">
+             <p>23.03.2021</p>
+           </div>
+         </a>
+         <a href="https://www.youtube.com/" class="photo_students_blockboxs_img">
+           <img src="img/Gallery_photo/Gallery_photo.jpg" alt="">
+           <div class="photo_students_date">
+             <p>23.03.2021</p>
+           </div>
+         </a>
+         <a href="https://www.youtube.com/" class="photo_students_blockboxs_img">
+           <img src="img/Gallery_photo/Gallery_photo.jpg" alt="">
+           <div class="photo_students_date">
+             <p>23.03.2021</p>
+           </div>
+         </a>
+        </div>
+
+      </div>
+
+    </section>
+    </main>
+    <footer>
+      <a href="#main_section" id="header_button_up" class="header_button_up">
+        <img src="Img/social/Up_icon.svg" alt="">
+      </a>
+    </footer>
+ </body>
+ <script>
+   window.addEventListener("scroll", bringmenu);
+   function bringmenu() {
+       if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+           document.getElementById("bottommenu").style.top = "-15%";
+           document.getElementById("header_button_up").style.opacity = "1";
+       } else {
+           document.getElementById("bottommenu").style.top = "0";
+           document.getElementById("header_button_up").style.opacity = "0";
+       }
+   }
+
+   function open_menu(){
+      document.getElementById("menu_section").style.left = "0%";
+   }
+
+   function close_menu(){
+      document.getElementById("menu_section").style.left = "-100%";
+   }
+ </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--asassa-->

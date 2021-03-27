@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Олівець</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/Main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header id=bottommenu>
+      <div class="header_main">
+        <div class="header_block">
+          <a href="index.html" class="header_logo" ><img src="Img/Logo.png" class="header_logo" alt=""></a>
+          <div class="header_text">
+            <div class="header_text_contacts">
+              <div class="header_text_contacts_phone">
+                <div class="header_text_contacts_img">
+                  <img src="Img/social/Phone.svg" alt="">
+                </div>
+                <div class="">
+                  <p>Наш телефон:</p>
+                  <h3>063 637 71 81</h3>
+                </div>
+              </div>
+              <div class="header_text_contacts_location">
+                <div class="header_text_contacts_img">
+                  <img src="Img/social/Location.svg" alt="">
+                </div>
+                <div class="">
+                  <p>Наш адрес:</p>
+                  <h3>вул.Каховська, 62, 2 поверх, офіс 10.</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_menu_burger" onclick="open_menu()">
+        <img src="Img/social/Burger_icon.svg" alt="">
+      </div>
+    </header>
+    <main>
+    <section class="menu_section" id="menu_section">
+      <div class="menu_section_text_box">
+        <div class="header_menu_close" onclick="close_menu()">
+          <img src="Img/social/Close_icon.svg" alt="">
+        </div>
+        <a href="About_us.html">О нас</a>
+        <a href="Disciplines_and_values.html">Дисципліни та ціни</a>
+        <a href="Our_teachers.html">Наші викладачі</a>
+        <a href="School_rules.html">Правила відвідування школи</a>
+        <a href="Photo_students.html">Роботи наших учнів</a>
+        <a href="Video_students.html">Відео хроніки</a>
+      </div>
+    </section>
+    <section class="video_section" id="video_section">
+      <div class="video_block">
+        <video class="video_box" src="Img/Video.mp4" controls></video>
+      </div>
+      <div class="close_video" onclick="close_video()">
+        <img src="Img/social/Close_icon.svg" alt="">
+      </div>
+
+    </section>
+    <section class="main_section" id="main_section">
+      <div class="main_section_block">
+      <h1>"Олівець"</h1>
+      <h2 class="h2_main">Cучасна школа мистецтв</h2>
+      <div class="button_blok">
+        <a href="#forms_section" class="main_button a_button">Записатись на заняття</a>
+        <button type="button" name="button" class="main_button" onclick="open_video()">Подивиться промо ролик</button>
+      </div>
+      </div>
+
+      <img class="main_img" src="Img/main_img.png" alt="">
+    </section>
+    <section class="photo_section">
+      <img class="Main_sky_background" src="Img/Main_sky_background.svg" alt="">
+      <div class="slider_photo">
+        <h2>Фото галерея</h2>
+        <!-- Swiper -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Gallery_photo/Gallery_photo.jpg" alt="">
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+      </div>
+    </section>
+
+    <section class="all_straight_section">
+      <h2 class="all_straight_section_h2">Напрямки роботи</h2>
+
+      <div class="all_straight_box">
+        <a href="Alldirections_pages/Aesthetic_education(6-16).html" class="all_straight_block">
+          <img src="Img/all_straight_icon/Aesthetic_education.svg" alt="">
+          <div class="all_straight_block_text">
+            <h3>Естетичне виховання</h3>
+            <p>Для школярів (6-16 років)</p>
+          </div>
+        </a>
+        <a href="Alldirections_pages/Aesthetic_education(2,5-6).html" class="all_straight_block">
+          <img src="Img/all_straight_icon/Aesthetic_education_2.svg" alt="">
+          <div class="all_straight_block_text">
+            <h3>Естетичне виховання</h3>
+            <p>Для малюкiв (2,5-6 років)</p>
+          </div>
+        </a>
+        <a href="Alldirections_pages/Physical_education.html" class="all_straight_block">
+          <img src="Img/all_straight_icon/Physical_education.svg" alt="">
+          <div class="all_straight_block_text">
+            <h3>Фізичне виховання</h3>
+            <p></p>
+          </div>
+        </a>
+        <a href="Alldirections_pages/Logic.html" class="all_straight_block">
+          <img src="Img/all_straight_icon/Speech_therapy.svg" alt="">
+          <div class="all_straight_block_text">
+            <h3>Логiка та мислення</h3>
+          </div>
+        </a>
+        <a href="Alldirections_pages/Language_club.html" class="all_straight_block">
+          <img src="Img/all_straight_icon/Language_club.svg" alt="">
+          <div class="all_straight_block_text">
+            <h3>Мовний клуб</h3>
+            <p></p>
+          </div>
+        </a>
+        <a href="Alldirections_pages/Groups_not_fulltime.html" class="all_straight_block">
+          <img src="Img/all_straight_icon/Part-time.svg" alt="">
+          <div class="all_straight_block_text">
+            <h3>Групи неповного дня для малят</h3>
+            <p></p>
+          </div>
+        </a>
+        <a href="Alldirections_pages/Master_classes.html" class="all_straight_block">
+          <img src="Img/all_straight_icon/Master-classes.svg" alt="">
+          <div class="all_straight_block_text">
+            <h3>Майстер класи</h3>
+            <p></p>
+          </div>
+        </a>
+        <a href="Alldirections_pages/Birthday.html" class="all_straight_block">
+          <img src="Img/all_straight_icon/Birthdays.svg" alt="">
+          <div class="all_straight_block_text">
+            <h3>Днi народження</h3>
+            <p></p>
+          </div>
+        </a>
+      </div>
+      <a href="Distribution.html" class="all_straight_schedule_button">Розклад</a>
+
+
+      <div class="news_section">
+          <h2 class="all_straight_section_h2">Новини нашої школи</h2>
+          <div class="news_blocks">
+            <!-- Swiper -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide news_block">
+                      <div class="news_block_img">
+                      </div>
+                      <div class="news_block_text">
+                        <h4>03.02.2021</h4>
+                        <h3>Новые парты</h3>
+                        <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+                      </div>
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <!--
+            <div class="news_block">
+              <div class="news_block_img">
+              </div>
+              <div class="news_block_text">
+                <h4>03.02.2021</h4>
+                <h3>Новые парты</h3>
+                <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+              </div>
+            </div>
+            <div class="news_block">
+              <div class="news_block_img">
+              </div>
+              <div class="news_block_text">
+                <h4>03.02.2021</h4>
+                <h3>Новые парты</h3>
+                <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+              </div>
+            </div>
+            <div class="news_block">
+              <div class="news_block_img">
+              </div>
+              <div class="news_block_text">
+                <h4>03.02.2021</h4>
+                <h3>Новые парты</h3>
+                <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+              </div>
+            </div>
+            <div class="news_block">
+              <div class="news_block_img">
+              </div>
+              <div class="news_block_text">
+                <h4>03.02.2021</h4>
+                <h3>Новые парты</h3>
+                <p>В Киеве школы и детские сады возобновят работу с 15 февраля. Это решение утвердили киевские вла...</p>
+              </div>
+            </div>
+            -->
+          </div>
+      </div>
+    </section>
+    <section class="forms_section" id="forms_section">
+      <img class="Main_sky_background form_background" src="Img/Main_sky_background.svg" alt="">
+      <div class="forms_main_block">
+        <div class="form_block">
+          <div class="form_icon">
+            <img src="Img/social/Form_icon/News_icon.svg" alt="">
+          </div>
+          <h2>Підписатися на новини</h2>
+          <form class="form_main" action="index.html" method="post">
+            <input class="form_input" type="text" name="name" placeholder="Ваше імя" value = "">
+            <input class="form_input" type="email" name="name" placeholder="Ваш email">
+            <input class="form_submit" type="submit" value="Підписатися">
+          </form>
+        </div>
+        <div class="form_block">
+          <div class="form_icon">
+            <img src="Img/social/Form_icon/SignUp_icon.svg" alt="">
+          </div>
+          <h2>Записатись на заняття</h2>
+          <form class="form_main" action="index.html" method="post">
+            <input class="form_input" type="text" name="name" placeholder="Ваше імя" value = "">
+            <input class="form_input" type="email" name="name" placeholder="Ваш email">
+            <input class="form_submit" type="submit" value="Записатись">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    </main>
+    <footer>
+      <a href="#main_section" id="header_button_up" class="header_button_up">
+        <img src="Img/social/Up_icon.svg" alt="">
+      </a>
+    </footer>
+ </body>
+ <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script>
+   var swiper = new Swiper('.swiper-container', {
+     slidesPerView: 1,
+     spaceBetween: 30,
+     slidesPerGroup: 1,
+     loop: true,
+     loopFillGroupWithBlank: true,
+     pagination: {
+       el: '.swiper-pagination',
+       clickable: true,
+     },
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+     breakpoints: {
+
+     // when window width is <= 320px
+     799: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        slidesPerGroup: 2,
+     },
+     1640: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+     },
+   }
+
+   });
+
+   window.addEventListener("scroll", bringmenu);
+   function bringmenu() {
+       if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+           document.getElementById("bottommenu").style.top = "-140px";
+           document.getElementById("header_button_up").style.opacity = "1";
+       } else {
+           document.getElementById("bottommenu").style.top = "0";
+           document.getElementById("header_button_up").style.opacity = "0";
+       }
+   }
+
+   function open_menu(){
+      document.getElementById("menu_section").style.left = "0%";
+   }
+
+   function close_menu(){
+      document.getElementById("menu_section").style.left = "-100%";
+   }
+
+   function open_video(){
+     document.getElementById("video_section").style.display = "flex";
+   }
+
+   function close_video(){
+     document.getElementById("video_section").style.display = "none";
+   }
+
+
+
+ </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--asassa-->
